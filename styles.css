@@ -1,73 +1,106 @@
 :root {
-  --primary-color: #a9af88;
-  --secondary-color: #e0e4c9;
-  --button-size: 19px 15px;
-  --border-edge: 6px;
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
 body {
-  text-align: center;
-  max-width: 800px;
   margin: 60px auto;
+  max-width: 1400px;
 }
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
 h1 {
-  font-size: 90px;
-  margin: 20px;
+  font-size: 96px;
 }
+
 h2 {
-  font-size: 37px;
-  margin: 38px auto;
-  max-width: 800px;
+  font-size: 48px;
 }
+
 h3 {
   font-size: 24px;
   opacity: 0.7;
 }
-.homepage:visited {
-  color: var(--primary-color);
-}
-.information {
-  display: flex;
-  justify-content: center;
-  margin: 30px;
-}
-.about-button {
-  padding: var(--button-size);
-  border: 1px solid var(--primary-color);
-  color: #a9af88;
-  margin: 20px;
-  border-radius: var(--border-edge);
-  text-decoration: none;
-}
-.contact-button {
-  padding: var(--button-size);
-  background: var(--primary-color);
-  color: #fffcf2;
-  margin: 20px;
-  border-radius: var(--border-edge);
-  text-decoration: none;
-}
 
-.paragraph {
-  display: flex;
-  margin: 25px 0;
-}
 p {
   background: var(--secondary-color);
   padding: 20px;
-  border-radius: var(--border-edge);
-  margin: 20px;
+  border-radius: 4px;
   font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
 }
 
-#contact {
-  font-size: 42px;
-  margin: 10px auto;
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
 }
 
-.email {
-  font-size: 24px;
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+  background: white;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
   text-decoration: none;
 }
-.email:hover {
+
+.email-link:hover {
   text-decoration: underline;
+}
+
+.launch-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.home-paragraph {
+  background: white;
 }
