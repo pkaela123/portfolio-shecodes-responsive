@@ -1,0 +1,73 @@
+:root {
+  --primary-color: #a9af88;
+  --secondary-color: #e0e4c9;
+  --button-size: 19px 15px;
+  --border-edge: 6px;
+}
+body {
+  text-align: center;
+  max-width: 800px;
+  margin: 60px auto;
+}
+h1 {
+  font-size: 90px;
+  margin: 20px;
+}
+h2 {
+  font-size: 37px;
+  margin: 38px auto;
+  max-width: 800px;
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+.homepage:visited {
+  color: var(--primary-color);
+}
+.information {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.about-button {
+  padding: var(--button-size);
+  border: 1px solid var(--primary-color);
+  color: #a9af88;
+  margin: 20px;
+  border-radius: var(--border-edge);
+  text-decoration: none;
+}
+.contact-button {
+  padding: var(--button-size);
+  background: var(--primary-color);
+  color: #fffcf2;
+  margin: 20px;
+  border-radius: var(--border-edge);
+  text-decoration: none;
+}
+
+.paragraph {
+  display: flex;
+  margin: 25px 0;
+}
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: var(--border-edge);
+  margin: 20px;
+  font-size: 18px;
+}
+
+#contact {
+  font-size: 42px;
+  margin: 10px auto;
+}
+
+.email {
+  font-size: 24px;
+  text-decoration: none;
+}
+.email:hover {
+  text-decoration: underline;
+}
