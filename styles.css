@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 60px auto;
+  margin: 100px auto;
   max-width: 1400px;
 }
 
@@ -103,4 +103,23 @@ p {
 }
 .home-paragraph {
   background: white;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 78px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 21px;
+  }
+  img {
+    display: none;
+  }
+  .launch-link {
+    display: block;
+    text-align: center;
+  }
 }
